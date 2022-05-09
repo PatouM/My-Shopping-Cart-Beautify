@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+
+  background-position: full cover;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+header{
+  background-image: url(https://www.scienceabc.com/wp-content/uploads/2016/05/shopping-cart.jpg);
+  position: relative;
+  text-align: center;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  }
+
+h1{
+  padding: 30px;
+  color: #ebc25b;
+  background-image: linear-gradient(60deg, #3b3412 0%, #485563 100%);
+  margin-bottom: 30px ;
+}
+
+p{
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+  color: rgba(8, 8, 8, 0.986);
+  background-color: #b88608;
+}
+
+#add_drill{ 
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 40px;
+}
+
+#add_psi{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 40px;
+}
+
+#add_dmm{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.img{
+  width: 30%;
+  align-items: center;
+  margin: 0 20px;
+}
+
+button{
+  color:#e2eeebf4;
+  background-color: #b4840cec;
+  padding: 3px 5px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#add_items{
+  color: rgb(231, 15, 15);
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.item{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+
+
+
+
+
+#footer{
+  background-image: linear-gradient(60deg, #1a1d20 0%, #485563 100%);
+}
+#footer .footer{
+  min-height: 150px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#footer h2{
+  color: #ebc25b;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
